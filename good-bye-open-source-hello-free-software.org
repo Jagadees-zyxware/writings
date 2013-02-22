@@ -1,0 +1,639 @@
+#
+#+TITLE:         Good bye "open source"; hello "free software"
+#+AUTHOR:        hellekin <hellekin@cepheide.org>
+#+DATE:          2013-01-01
+#+STARTUP:       fnadjust
+#+OPTIONS:       H:8 num:nil toc:nil f:t tags:nil @:t
+#+LANGUAGE:      en
+#+STYLE:         <link rel="stylesheet" type="text/css" href="style.css" />
+#+DESCRIPTION:   30 years of GNU, 15 years of open-source: we still need to fight for freedom
+#+KEYWORDS:      freedom, GNU, open-source, anniversary, free software, GPL, technology
+
+15 years ago, Eric S. Raymond published @<tt>Good bye "free software";
+hello "open source"@</tt>, that changed the face of the Free Software
+community.  In that article, the author defined "the next phase": to
+have free software accepted in the corporate world.  15 years later,
+/it's time to reposition/.
+
+"Tu cerebro es una máquina a proveer lo que falta." -- Vampii
+
+* Good bye "free software"; hello "open source"                    :noexport:
+** Original Article, by Eric S. Raymond
+
+Goodbye, "free software"; hello, "open source"
+
+This is the original call to the community to start using the term
+‘open source‘ that I issued on 8 February 1998. The event referred to
+in the first paragraph is the 23 January announcement of the Mozilla
+source code release. Because this is a historic document, I have fixed
+some link drift but haven't re-styled it to match the rest of my site.
+Though it has been converted to XHTML rather than HTML classic, except
+for this gray box and the RCS date at the bottom it looks pretty much
+exactly as it did then. There are Spanish and Indonesian translations
+of this document.
+
+After the Netscape announcement broke in January I did a lot of
+thinking about the next phase -- the serious push to get "free
+software" accepted in the mainstream corporate world. And I realized
+we have a serious problem with "free software" itself.
+
+Specifically, we have a problem with the term "free software", itself,
+not the concept. I've become convinced that the term has to go.
+
+The problem with it is twofold. First, it's confusing; the term "free"
+is very ambiguous (something the Free Software Foundation's propaganda
+has to wrestle with constantly). Does "free" mean "no money charged?"
+or does it mean "free to be modified by anyone", or something else?
+
+Second, the term makes a lot of corporate types nervous. While this
+does not intrinsically bother me in the least, we now have a pragmatic
+interest in converting these people rather than thumbing our noses at
+them. There's now a chance we can make serious gains in the mainstream
+business world without compromising our ideals and commitment to
+technical excellence -- so it's time to reposition. We need a new and
+better label.
+
+I brainstormed this with some Silicon Valley fans of Linux (including
+Larry Augustin of the Linux International board of directors) the day
+after my meeting with Netscape (Feb 5th). We kicked around and
+discarded several alternatives, and we came up with a replacement
+label we all liked: "open source".
+
+We suggest that everywhere we as a culture have previously talked
+about "free software", the label should be changed to "open source".
+Open-source software. The open-source model. The open source culture.
+The Debian Open Source Guidelines. (In pitching this to the corporate
+world I'm also going to be invoking the idea of "peer review" a lot.)
+
+And, we should explain publicly the reason for the change. Linus
+Torvalds has been saying in "World Domination 101" that the
+open-source culture needs to make a serious effort to take the desktop
+and engage the corporate mainstream. Of course he's right -- and this
+re-labeling, as Linus agrees, is part of the process. It says we're
+willing to work with and co-opt the market for our own purposes,
+rather than remaining stuck in a marginal, adversarial position.
+
+This re-labeling has since attracted a lot of support (and some
+opposition) in the hacker culture. Supporters include Linus himself,
+John "maddog" Hall, Larry Augustin, Bruce Perens of Debian, Phil
+Hughes of Linux Journal. Opposers include Richard Stallman, who
+initially flirted with the idea but now thinks the term "open source"
+isn't pure enough.
+
+Bruce Perens has applied to register "open source" as a trademark and
+hold it through Software in the Public Interest. The trademark
+conditions will be known as the ``Open Source Definition'',
+essentially the same as the Debian Free Software Guidelines.
+
+It's crunch time, people. The Netscape announcement changes
+everything. We've broken out of the little corner we've been in for
+twenty years. We're in a whole new game now, a bigger and more
+exciting one -- and one I think we can win.
+
+(A note about usage. In accordance with normal English practice, the
+term is "open source" standing alone, but "open-source" used as an
+adjective or in compounds; thus, "open-source software".)
+
+(Yes, we're aware of the specialized meaning "open source" has in the
+intelligence community. This is a feature, not a bug.)
+
+Eric S. Raymond <esr@snark.thyrsus.com>
+
+** Point by Point
+*** The Next Phase: Acceptance of Free Software in the Corporate World
+
+    - The 1998 article defines "=the next phase=" as: =the serious
+      push to get "free software" accepted in the mainstream corporate
+      world.=
+    - It proposes the thesis that to achieve "the next phase", =we
+      have a serious problem with "free software" itself.=
+    - =Specifically, we have a problem with the term "free software",
+      itself, not the concept.=
+    - The author proposes to get rid of the term. =I've become
+      convinced that the term has to go.=
+
+*** A Double Problem
+
+    =The problem with it is twofold.=
+
+**** Ambiguity and Confusion
+
+:     First, it's confusing; the term "free" is very ambiguous
+:     (something the Free Software Foundation's propaganda has to
+:     wrestle with constantly). Does "free" mean "no money charged?" or
+:     does it mean "free to be modified by anyone", or something else?
+
+**** Confusion and Ambiguity
+
+:     Second, the term makes a lot of corporate types nervous.
+
+*** Pragmatic Interest
+
+**** To Make Serious Gains
+    - converting =these people= (i.e. "a lot of corporate types" who
+      get "nervous" when they hear the term "free software".)
+      - vs. =thumbing our noses at them=
+    - to =make serious gains in the maintstream business world=.
+
+**** Without Compromising
+***** Our Ideals
+***** Our Commitment to Technical Excellence
+
+*** The Solution
+**** A New and Better Label
+
+    =so it's time to reposition. We need a new and better label.=
+
+**** To Reposition
+
+:    We suggest that everywhere we as a culture have previously talked
+:    about "free software", the label should be changed to "open source".
+:
+:    Open-source software. The open-source model. The open source culture.
+
+:    The Debian Open Source Guidelines. (In pitching this to the corporate
+:    world I'm also going to be invoking the idea of "peer review" a lot.)
+
+     That one *never* happen, you can't find bad spelling of people's
+     favorite pets in the Debian project, but the *DFSG*: Debian =Free
+     Software= Guidelines.
+
+*** The Justification
+
+    =And, we should explain publicly the reason for the change.=
+
+**** Authority Argument
+
+     =Linus Torvalds has been saying=
+     - take the desktop
+     - engage in the corporate mainstream
+
+**** Self-Justification
+
+     =Of course he's right -- and this re-labeling, as Linus agrees,
+     is part of the process.=
+
+**** Projecting Antagonism
+
+:     [The label] says we're willing to work with and co-opt the market
+:     for our own purposes, rather than remaining stuck in a marginal,
+:     adversarial position.
+
+**** Showing Off Numbers
+
+:     This re-labeling has since attracted a lot of support (and some
+:     opposition) in the hacker culture. Supporters include Linus
+:     himself, John "maddog" Hall, Larry Augustin, Bruce Perens of
+:     Debian, Phil Hughes of Linux Journal. Opposers include Richard
+:     Stallman, who initially flirted with the idea but now thinks the
+:     term "open source" isn't pure enough.
+
+**** Ditching "Opposers"
+
+:     Stallman, who initially flirted with the idea but now thinks the
+:     term "open source" isn't pure enough.
+
+**** Proof of Goodwill 
+
+:     Bruce Perens has applied to register "open source" as a trademark
+:     and hold it through Software in the Public Interest. 
+
+**** More re-branding
+
+:     The trademark conditions will be known as the ``Open Source
+:     Definition'', essentially the same as the Debian Free Software
+:     Guidelines.
+
+**** Yes, We Can
+
+:     It's crunch time, people. The Netscape announcement changes
+:     everything. We've broken out of the little corner we've been in for
+:     twenty years. We're in a whole new game now, a bigger and more
+:     exciting one -- and one I think we can win.
+
+     20 years + 15 years = now. Time to reposition.
+
+**** Normality
+
+:     (A note about usage. In accordance with normal English practice,
+:     the term is "open source" standing alone, but "open-source" used
+:     as an adjective or in compounds; thus, "open-source software".)
+
+     If that kind of usage of English reduces the confusion about a
+     term, why not use that, instead of re-branding a whole lot of
+     labels to lose meaning in the way--especially for the reason of
+     *nervousness* over a term that would have been understood as
+     opposed to the market *before* the market embraced *FREE*
+     services as their main business model--free, as in *GRATIS*.
+
+     A minimalist approach would have been to add a hyphen to the
+     original term, and talk about =free-software=: software that
+     conveys freedom.
+
+(Yes, we're aware of the specialized meaning "open source" has in the
+intelligence community. This is a feature, not a bug.)
+
+Eric S. Raymond <esr@snark.thyrsus.com>
+
+
+* Looking Back
+
+  In 1998, free software[fn:1] still was marginal. Although widely
+  accepted in technical and academic circles, it could not break
+  MicrOracSAPple's oligarchy over the corporate world.
+
+** Free Software - Idealism + Marketing = Open Source
+
+   Raymond's article was not a technical article.  It was all about
+   marketing[fn:2].  It was about hiding the reason why we're making
+   our software free, and focus on its /excellence/; it was about
+   turning free software into a commodity, so that corporate people
+   would be at ease with the concept.
+
+   In retrospect, that initiative brought positive results with regard
+   to its objective to bring free software to the mainstream.  Indeed,
+   the Open Source Initiative did a lot to promote open-source
+   software to the corporate world, and probably played a key role in
+   the acceptance of the technology.  And as far as the reasons
+   invoked by ESR in his article are concerned, it completed its task
+   beyond expectations.  But there's no reason to believe that same
+   results would not have been achieved without a label change.
+   
+** From Netscape to Google
+
+   In 1998, Netscape became the big corporate player of the free
+   software world.  With the release of Firefox's source code, that
+   prompted ESR and others to ditch "free software"--the label.
+     
+   Then came a whole lot of booming companies using free software and,
+   sometimes, promoting it--such as Google; and prominent software
+   companies started "open sourcing" their products; the best part of
+   the mobile smartphone market runs on free software; and the NSA
+   itself, the world's top employer of mathematicians, released free
+   source code to enhance the security of the Linux kernel.  All
+   events of the magnitude of the initial public release of Firefox.
+
+   Today, most Internet companies abundantly use free software in
+   their core business, some give important contributions back to the
+   community, either by code or sponsorship of free software projects;
+   beyond academia, use of free software became law in governments,
+   such as Iceland, Brazil, Ecuador[fn:3], Germany, Venezuela, or
+   more recently Uruguay...
+
+   Today, the "fear of free software" is gone, and around the world,
+   individuals, businesses and governments embrace software freedom,
+   for its excellence, and for other reasons that we're going to
+   address.
+
+* Why Is Freedom Important?
+
+  Everyone has at least a good reason to prefer software freedom over
+  non-free software products.
+
+  Individuals may want to keep their computing activity in line with
+  their ethics, customize software to meet their specific needs; share
+  it with their friends, or keep their purchased books off the
+  censorship hook of some +over-sized+ misanthropic company.
+
+  Businesses may want to cut on the costs of setup and maintenance,
+  benefit from the large and efficient community that will fix bugs as
+  soon as possible, and keep open the possibility of tailoring the
+  functionality, or producing software themselves, at a fraction of
+  the cost of proprietary equivalents.
+
+  Governments may want to keep a foreign company from operating
+  potentially malicious software within their own infrastructure, and
+  control their own software production, and guarantee the sovereignty
+  of their State.
+
+  Each of these points could have been deemed unnecessary, or even
+  paranoid, 15 years ago.  But since, we've had Wikileaks, Anonymous,
+  forged SSL certificates, Stuxnet, Red October, an illegal war in
+  Iraq, Homeland Security, RFID chips, bugged and remotely controlled
+  smartphones, etc.  Corporate intelligence and digital warfare are
+  not science-fiction anymore: they are facts, and prime time news.
+  And "nervous corporate types" do know that paying a license fee will
+  not protect their datacenter against a determined attacker, maybe
+  even the opposite, given the track record of proprietary software
+  insecurity.
+
+  But, it can't be for convenience, or cutting costs, or security that
+  we're insisting on software freedom.  So, why is freedom so
+  important?
+
+** The Ambiguity of "free"
+
+   In the ambiguity of the English term "free", ESR and the
+   open-source proponents' find their main argument to avoid it: it
+   could mean gratis or it could mean empty; why the hell would it
+   mean /libre/[fn:4]?
+
+   It transpires from ESR's text that the double-meaning of
+   free-gratis, and free-not-owned would eclipse the usual meaning of
+   freedom.  Indeed, the declared objective is to reassure the
+   markets, and give a serious--as in non-activist--tone to free
+   software.
+
+   It is unfortunate that ESR himself did not (want to) realize the
+   mistake he made when stating that free software remained "stuck in
+   a marginal, adversarial position", antagonist to commerce.  It was
+   not then, and is not now: free software *is* free! You are free to
+   do business with it, including selling copies of the
+   software[fn:5], although the main business model associated to free
+   software is one of service.
+
+   Now "free" built another reputation during this period. After a
+   decade or more of "free" online services, "free" not only sounds
+   like "gratis", but also like a trap: if a product is "free", then
+   the product being sold is *you*.
+
+   It's time to assert the meaning of free we're seeking, rather than
+   to hide it.  There's no ground in letting hostile parties take over
+   the meaning of our own words.  Free, used well, is not replaceable;
+   and nobody will argue with the meaning of /free/ in the First and
+   Fourth amendments to the U.S. Constitution; Liberté, Egalité,
+   Fraternité does not leave any ambiguity as to the meaning of
+   Liberté: it's freedom. Period.[fn:6]
+
+** It's About an Ontology of Freedom
+
+   Following the tragic September 11, 2001, the dominating powers
+   tried to redefine the meaning of freedom in an Orwellian style:
+   freedom would mean that the more powerful can do whatever they want
+   in the name of freedom, including killing civilians, children, and
+   assassinating people without a trial, under the cover of
+   anti-terrorism. That "freedom" would mean that you cannot stop
+   financial elites from massively robbing the people, and you cannot
+   prevent a company that sold you a book-reader from removing your
+   books from it. That "freedom" would mean the right to remain
+   silent, and to be opposed any word you may say, and that *is*
+   recorded. That "freedom" would mean the right to commit suicide to
+   avoid persecution from a hostile government that represses
+   freedom-of-speech-against-it. That "freedom" would mean
+   slavery. That "freedom" is but a label that denies freedom.
+
+   So, if freedom became such an empty shell, why keep using it?  It's
+   not about labels, it has never been about labels[fn:7]. But the
+   struggle, today and before, concerns freedom[fn:8], the
+   concept. It's difficult to define by words[fn:9], but can easily be
+   understood by illustration. It's not a matter of marketing, but a
+   matter of ethics; not a matter of semiotics, but a work of
+   ontology.
+
+   The freedom I believe in is one cooperatively evolving from the
+   co-learning of all humans, across Centuries and cultures, in
+   addressing ignorance, domination, corruption, malevolence;
+   Prometheus brought us freedom, by dissipating the dark veil of
+   ignorance, and appeasing the fear born from it. My freedom is one
+   of science, one of sharing, one of history. My freedom is never
+   attained, and always endangered by conservative forces. My freedom
+   knows no boundaries but one: your lack of freedom.
+
+* The Next Phase
+
+  So it's time to reposition. We need to get back to the roots.
+
+  Open-source vs. Free Software has a bitter taste of Us
+  vs. Them. Truth is: we're one big family, on one little planet, and
+  competition won't lead us anywhere else--at least not any time soon,
+  and we have more urgent problems to tackle than to ponder the next
+  Faster-Than-Light travel engine.
+
+  The layman starts understanding the importance of transparency in
+  public processes: the United Nations made it a point to recognize
+  Internet access as a Human Right, but free software does not enjoy
+  such recognition yet; Wikileaks keeps demonstrating the proprietary
+  secrets of publicly-funded governments' covert ops[fn:10]; and as more
+  unethical practices unfold in the media, the awareness of the
+  general public raises sharply about the ethics of foreign policies
+  and globalized businesses.
+
+  More than ever, we need freedom. If we ever want to live in a world
+  beyond short-term-profit, we need to expose and address global
+  issues globally.  In order to achieve such a Global Brain magnitude
+  of human interaction, we need to embrace computing as a mind
+  amplifier, alike the Computer Science and Internet pioneers.
+
+  In the next few years, as the old world is still rushing at full
+  speed toward a solid wall, geo-strategic tensions will increase.
+  How to ensure that these tensions are mostly resolved
+  diplomatically, rather than warily?  There's no definite answer to
+  that, but some hints inherited from History:
+
+    - powerful individual action depends on individual freedom
+    - powerful social action depends on social freedom
+    - correct decision making depends on the availability of relevant
+      information
+    - dominant forces want to keep dominating, and will use any means
+      to stay in place
+    - cooperation favors intelligence
+
+* Free Software as a Specific Technology
+
+  What can free software do, that non-free software cannot achieve?
+  
+  An obvious answer to that question is: "free software gives you
+  freedom!"[fn:11]
+
+  A less obvious answer relates to the very nature of free software, as
+  distinguished from non-free software: there lies not a technical
+  difference, but a technological difference.  Free software is a
+  distinguishable technology from non-free software.
+
+  According to Gilbert Simondon's Theory of Individuation[fn:12], the means
+  of production of an arbitrary technique are deeply rooted into the
+  resulting technology ; any open-ended technology can evolve in
+  unexpected, and unintended ways ; quality comes by successive
+  iterations ; a complex network of simple elements is more fit than
+  any static construction (made for a particular purpose) ; etc.
+
+  All of this sounds like free software: from the Unix philosophy to
+  "write programs that do one thing and do it well. Write programs to
+  work together. Write programs to handle text streams, because that
+  is a universal interface"[fn:13], to the distributed and iterative
+  development model, free software is a good candidate for being a
+  distinct technology from non-free software.
+
+  First of all, free software guarantees user's freedom to run, copy,
+  change, and share original or modified copies of the software. The
+  "four freedoms" make free software essentially public; and as the
+  software evolves, a *copyleft* [fn:14] free software license tries to
+  guarantee that it will remain free.
+
+  Free software, like non-free software, operates within the legal
+  framework of Copyright: it has an author, and, unlike non-free
+  software, that author grants rights to use, study, share, and change
+  the software, that are irrevocable in the case of copylefted free
+  software.
+
+  That makes copylefted free software particularly well-suited for
+  developing a public infrastructure: its development is driven by the
+  needs of the user, and its strong Copyright policy makes it
+  available to the public, once and for all. Its development model
+  also fosters creativity, by allowing anyone with an idea to
+  implement it and propose it to the public: marketing is much less
+  important here than excellence of the product; like Science, free
+  software relies on peer-review to test its quality and pertinence,
+  and does not impose blind trust on its users, like non-free software
+  does.
+
+  One of the less technical aspects of software freedom, its reliance
+  on community, also provides a foundation for cooperation in its
+  development: businesses and institutions can share their
+  developments and make the software evolve in ways that are simply
+  not possible with non-free software.
+
+  Moreover, free software fosters competition and diversity, where
+  non-free software tends to favor monopolies, and industrial
+  secrets--or software patents--that block innovation. But with the
+  source code in hand, anything is possible.
+
+  Finally, free software allows flexible support, that can be done
+  in-house, or by a chosen service provider. In contrast, usually, the
+  normalization of non-free software support makes it difficult or
+  impossible to adapt to specific needs of the user.
+
+** TODO                                                            :noexport:
+
+*** the means of production...
+
+    of an arbitrary technique are deeply rooted into the
+    resulting technology
+
+*** any open-ended technology
+
+    can evolve in unexpected, and unintended ways
+
+*** quality comes by successive iterations
+
+    
+
+*** a complex network of simple elements is more fit
+
+    than any static construction (made for a particular purpose)
+
+    - Internet!
+
+* Looking Omni-Directionally
+
+  15 years later, free software has reached its goal of embracing the
+  market, and becoming a mainstream technology; and, we're still
+  talking about the Debian Free Software Guidelines.  As globalization
+  continues, it makes more acute the failures and shortcomings of
+  democracy, and the fallacy of "free" markets.  People around the
+  world want, and need more freedom, now: all of you, all of us,
+  deserve it[fn:15].
+
+  *Free software gives you freedom* and it's time to insist (again) on
+  that specificity.  The GNU project[fn:16] is turning 30 years old
+  this year: make it so that 2013 be the year of software freedom.
+
+  Happy birthday GNU!
+
+  Thank you open-source, you served well. Welcome back, free software!
+
+* Post-Amble                                                       :noexport:
+:postamble
+
+  This article is evolving.
+
+  There are follow-ups, and the list of footnotes grows to link
+  informational references.
+
+  LibrECO the Libre Economic Cooperative Ontology defines business
+  models adapted to the goals and ethics of freedom.  Based on proven
+  experience, they foster a model where individual freedom provides a
+  significant improvement in the shared experience of human
+  relationships. As a result, the organization can achieve better
+  results and trigger disruptive innovation in their industries. That
+  includes a cooperative supply chain community model, where
+  producers, suppliers, and consumers have their say on the strategy
+  of the enterprise[fn:17].
+
+** Media Resources
+
+   - https://fosdem.org/2013/schedule/event/freedombox/
+   - 
+
+* Changes                                                          :noexport:
+
+  Since Publication, I incorporated comments and suggestions by Micah
+  Andersson, Richard M. Stallman, Erkan Yilmaz.
+
+  - Thank you Micah for pointing out ...
+  - Thank you ... for the pointer to WikiEducator
+  - Thank you Richard for your invaluable editing skills
+  - Thank you Erkan for ...
+
+*                                                                 :meta:
+  :PROPERTIES:
+  :VISIBILITY: children
+  :END:
+
+#+BEGIN_HTML
+<div class="copyleft">
+#+END_HTML
+
+Copyright 2013 hellekin <[[mailto:hellekin@cepheide.org][hellekin.cepheide.org]]>
+—
+Verbatim copying and distribution of this entire
+article are permitted worldwide, without royalty, in any medium,
+provided this notice is preserved.
+#+END_HTML
+
+You can [[http://cepheide.org/consensus/good-bye-open-source-hello-free-software.org][copy the text source]] that produced this HTML file.
+
+This article is maintained in a [[https://github.com/hellekin/writings][public Git repository]].
+
+#+BEGIN_HTML
+</div>
+#+END_HTML
+
+* Footnotes
+
+[fn:1] [[https://gnu.org/philosophy/free-sw.html][What is Free Software?]]
+
+[fn:2] "Open Source is a marketing program for Free Software." --
+   Bruce Perens, February 18th, 1998, to the [[http://www.crynwr.com/cgi-bin/ezmlm-cgi?mss:1190:199802:medkbdodficknnkdkppb][Free Software Business mailing list]] (FSB)
+
+[fn:3] [[http://prometeo.senescyt.gob.ec/portal/en/web/prometeo][The Prometeo, "Wise Elders" Program]]: Ecuador just launched a
+   vast project to promote scientific research in the country, and per
+   national policy, free software development and ICT research
+
+[fn:4] [[http://wikieducator.org/Say_Libre][Knowledge for all, freedom to learn, towards collective wisdom for a sustainable world]]
+
+[fn:5] [[https://gnu.org/philosophy/selling.html][Selling Free Software]] is OK!
+
+[fn:6] In French, /libre/ has the same problem as /free/ in English:
+both words can mean /gratis/ or /free of charge/. However, /esprit
+libre/, /economie libre/, ou /citoyen libre/ are respectively
+translated to /free spirit/, /free economy/, and /free citizen/: none
+bear the meaning of price. The bad cultural habit of confusing freedom
+with comfort is not yet shared globally, but the need for freedom is.
+
+[fn:7] For a history of the labels "free software", "libre software",
+   and "open-source software", see the article of Jesus M
+   Gonzales-Barahona: [[http://sinetgy.org/jgb/articulos/libre-software-origin/][Quo vadis, libre software?]]
+
+[fn:8] [[https://gnu.org/philosophy/open-source-misses-the-point.html][Why "Open Source" is missing the point of Free Software]]
+
+[fn:9] Richard M Stallman says: I define freedom as "having control
+over your own life". (in correspondence, January 28th 2013)
+
+[fn:10] [[http://wlcentral.org/node/2777][Rafael Correa's New South America]], November 23rd, 2012, WLCentral
+
+[fn:11] "[[http://www.crynwr.com/cgi-bin/ezmlm-cgi?mss:1151:199802:lobodkdpljkgkacooaeo][It's Still Free Software]]" -- Richard M. Stallman, February
+16th, 1998, to the FSB list
+
+[fn:12] [[http://en.wikipedia.org/wiki/Individuation#Gilbert_Simondon][Wikipedia Article on Individuation]]
+
+[fn:13] [[http://www.faqs.org/docs/artu/ch01s06.html][Basics of Unix Philosophy]]
+
+[fn:14] [[http://www.gnu.org/copyleft/copyleft.html][What is Copyleft?]]
+
+[fn:15] [[https://gnu.org/philosophy/why-free.html][Why Software Should Not Have Owners]]
+
+[fn:16] https://gnu.org/
+
+[fn:17] Premium Cola business model
+  - TODO: translate DE -> EN
