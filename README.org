@@ -5,3 +5,7 @@
 * Random Glimpses of Insight
 
   Personal visions, random writings, for your reading pleasure.
+
+* Read online
+
+  - [[https://hellekin.cepheide.org/consensus/good-bye-open-source-hello-free-software.html][Good bye Open Source; hello Free Software]]
