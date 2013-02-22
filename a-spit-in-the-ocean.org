@@ -2,6 +2,9 @@
 #+TITLE:   A Spit in the Ocean
 #+AUTHOR:  hellekin
 #+DATE:    Mon, 13 Feb 2012 02:56:16 +0100
+#+OPTIONS:       H:8 num:nil toc:nil f:t tags:nil @:t
+#+LANGUAGE:      en
+#+STYLE:         <link rel="stylesheet" type="text/css" href="style.css" />
 
 * Introduction
 

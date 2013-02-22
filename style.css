@@ -1,0 +1,5 @@
+body { font-family: Helvetica, Arial, Sans-serif; line-height: 1.5em; }
+h1.title { font-family: Georgia, Serif; }
+div#content { width:42em; margin: 0 auto; }
+sup { line-height: 0; }
+div.copyleft { font-size: x-small; font-family: monospace; line-height: 1em; border: 1px inset black; padding: 0.25em 1em; color: #2b2b2b; background-color: #efefef; }
