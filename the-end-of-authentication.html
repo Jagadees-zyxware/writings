@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+lang="en" xml:lang="en">
+<head>
+<title>The End of Authentication</title>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="generated" content="Sun May 19 18:56:32 2013"/>
+<meta name="author" content="hellekin"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  html { font-family: Times, serif; font-size: 12pt; }
+  .title  { text-align: center; }
+  .todo   { color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #add8e6; font-weight:normal }
+  .target { }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  p.verse { margin-left: 3% }
+  pre {
+	border: 1pt solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 5pt;
+	font-family: courier, monospace;
+        font-size: 90%;
+        overflow:auto;
+  }
+  table { border-collapse: collapse; }
+  td, th { vertical-align: top; }
+  dt { font-weight: bold; }
+  div.figure { padding: 0.5em; }
+  div.figure p { text-align: center; }
+  .linenr { font-size:smaller }
+  .code-highlighted {background-color:#ffff00;}
+  .org-info-js_info-navigation { border-style:none; }
+  #org-info-js_console-label { font-size:10px; font-weight:bold;
+                               white-space:nowrap; }
+  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
+                                 font-weight:bold; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+
+<h1 class="title">The End of Authentication</h1>
+
+<p>listening to: Within (Daft Punk, Random Access Memories)
+</p>
+
+<div id="outline-container-1" class="outline-2">
+<h2 id="sec-1">Abstract</h2>
+<div class="outline-text-2" id="text-1">
+
+
+<p>
+We've been taught to believe that identity is something defined by
+an authority, such as a national State, a so-called "trusted"
+third-party, or a Web service.
+</p>
+<p>
+It's time to reset and reboot: identity, and therefore
+authentication, is something that each person can, and has to take
+care for themselves.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-2" class="outline-2">
+<h2 id="sec-2">The Cryptographic Path to IDENTical diversITY</h2>
+<div class="outline-text-2" id="text-2">
+
+
+<p>
+Amidst the smoke screen of global terrorism, and pervasive
+surveillance, the yelling majorities call for the "end of privacy"
+and other "electronic war" rethorical lunacies.  But there's no war
+without a very concrete building in which to prepare it, with humans
+making silly decisions, and taking sorry steps; and the post-privacy
+pundits won't take a picture of my ass without assaulting and raping
+me.
+</p>
+<p>
+In the early days of hacking at MIT, closing an office door, like
+setting a password to a computer account, were considered offensive.
+That was before the times of firewalls, walled gardens, and global
+surveillance.  Now, we know that idealism must be protected with
+strong cryptography if we want to preserve what's left of our
+privacy.
+</p>
+
+</div>
+
+<div id="outline-container-2.1" class="outline-3">
+<h3 id="sec-2.1">Three Myths About Who We Are</h3>
+<div class="outline-text-3" id="text-2.1">
+
+
+<p>
+But who is 'we'? Am I part of it? Are you?
+</p>
+
+</div>
+
+<div id="outline-container-2.1.1" class="outline-4">
+<h4 id="sec-2.1.1">Myth #1: I Know Who I Am</h4>
+<div class="outline-text-4" id="text-2.1.1">
+
+
+<p>
+Almost all kids in our civilization were born with a name branded
+on them by their parents, or so they think, baptised by a
+name-giving-authority to save them from some birth defect called
+<i>original sin</i>, without a say&ndash;despite their cries, and classified
+by a number-giving-authority with a life-long "identity".
+</p>
+<p>
+We're so used to that <b>fact</b> of our lives, that nobody seems to
+question anymore being branded and reduced to a name, a number, a
+health record, a curriculum, or a job resume.  So much are we
+told, and taught, and repeated, that we are the person whose
+mugface is on our passport, whose name is on our diplomas, whose
+career path make up our resume, that we tend to forget that we're
+a living, thus ever changing organism.
+</p>
+<p>
+Then one day, John Doe, a Sales Accountant at Pepper Spray
+Corporation, <i>gets out of his mind</i>, slams the door, and drives to
+the mountains where he starts planting seeds and watching the sky.
+<i>What happened</i> to <i>him</i>? <i>He was</i> so&hellip; Now people talk about
+this guy like if he were dead, albeit he just became alive.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-2.1.2" class="outline-4">
+<h4 id="sec-2.1.2">Myth #2: You Know Who You Are</h4>
+<div class="outline-text-4" id="text-2.1.2">
+
+
+<p>
+Your local instance of a <i>govern-mental</i> institution,
+people-in-the-know, marketers, your neighbors, and including <i>your     boss</i>, all tend to put you in nifty boxes whereby they can count
+you in a bulk, reduce you to a number, a label, most often
+referred to as "your identity". 
+</p>
+<p>
+As you very well know it, people suck; you know: "people"; all the
+others, except <b>me</b>.  Well, this arrangement is made for you to
+blend in, to comply, to fit in, to obey, to melt in the awful
+crowd of nobodies.  But of course, you're not <i>one of them</i>!
+You're special, elite.  You'll recognize yourself.  You know who
+you are. <b>blink</b>
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-2.1.3" class="outline-4">
+<h4 id="sec-2.1.3">Myth #3: We Know Who You Are</h4>
+<div class="outline-text-4" id="text-2.1.3">
+
+
+<p>
+Social Security Number, National ID, RFID, traffic cameras,
+fingerprinting, biometry, behavior recognition, insurance record,
+health record, drug test, police record, financial record,
+purchase record, loyalty card&hellip;  Cookies, LSO, recommendations,
+avatar, login. Register. Like it or not, <i>we know who you are</i>
+(and much, much better than you do).
+</p>
+<p>
+The SSL certificate infrastructure is broken! Illegal phone
+tapping is widespread! Large customers databases get compromised!
+ISPs watch their customers browsing habits! The NSA is recording
+all Internet and phone traffic! That's a pretty grim picture we're
+being told about the current state of the global surveillance
+society.
+</p>
+<p>
+Faced with such pervasive surveillance, where walking against the
+crowd is a deviant pattern detected by video cameras, there's a
+single step to abandon to the insisting wave of defeatism, and
+kiss goodbye to privacy.
+</p>
+<p>
+Yet, even Eric Schmidt, CEO of Google, who famously said that it
+"wants to know everything about you", concedes that with 48 hours
+of video uploaded to Youtube every minute, there's no way the
+company can do anything before the fact. I like to take this as a
+reference before conceding any stress to the Orwellian propaganda
+that reclaims total control over our lives <i>for our own safety</i>.
+</p>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-3" class="outline-2">
+<h2 id="sec-3">I Am My Own Community</h2>
+<div class="outline-text-2" id="text-3">
+
+
+<p>
+I don't need, nor want any kind of a Big Brother. I want freedom. I
+need friends. I am not a number&hellip; I'm a person, from Latin
+<i>persona</i>, the mask.
+</p>
+
+
+</div>
+
+<div id="outline-container-3.1" class="outline-3">
+<h3 id="sec-3.1">The Right To Heteronymity</h3>
+<div class="outline-text-3" id="text-3.1">
+
+
+<p>
+In our degenerate society, I wear the mask that was granted to me
+at birth, only when I interact with the bureaucracy that made it
+for me, for any reason, but certainly not my freedom, nor anyone
+else's freedom.  Otherwise, I keep moving among personas, forging
+avatars as I create new interactions, merging some to my greater
+self, deflecting others to dead ends as I see fit, as to avoid
+profiling, spying, stalking, judgement, and diversion.
+</p>
+<p>
+Who needs to know whether I pray for a god, whether I write poetry,
+what is my sexual practice, or my political preferences? If I want
+to share it with you, I will. You may not even recognize me.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-3.2" class="outline-3">
+<h3 id="sec-3.2">Identical, Yet Different</h3>
+<div class="outline-text-3" id="text-3.2">
+
+
+<p>
+That is not to say that names, or to make things clear&ndash;here I can
+use the word: an identity, is something to avoid. It's not. Bearing
+a stable identity is mostly useful.  It allows for others to
+establish a <i>durable</i> link, and build trust in you. It provides a
+<i>stable</i> path to recognition, an <i>endpoint</i> for communication.
+</p>
+<p>
+Identity becomes problematic when it's used beyond its scope: for
+example, as a container for your self.  Such examples abound, and
+mostly bring harm, usually <i>permanent damage</i>, to the <i>identified</i>
+person: an atheist, a Black, a Christian, a diabetic, a dissident,
+an enemy, an infidel, a Jew, a Muslim, a woman, etc.; or to
+society: a criminal, a terrorist, a child, a hero, a politician.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-3.3" class="outline-3">
+<h3 id="sec-3.3">Cryptographic Identity</h3>
+<div class="outline-text-3" id="text-3.3">
+
+
+<p>
+An cryptographic identity is a way to establish <i>with enough    certainty</i>, now and for the duration of our purpose, that <i>whoever    that is</i>, the entity with whom we're interacting with remains the
+same, i.e.: is identical.
+</p>
+<p>
+"Enough certainty" depends on the risk both parties are willing to
+take before they can establish contact and proceed with their own
+business. "Whoever that is" pinpoints the important feature of the
+identity requirement for any secure transaction: nobody needs to
+know your name, your gender, nor your birth date, in order to
+fulfill <b>most</b> purposes.
+</p>
+<p>
+Therefore, we propose that instead of establishing permanent
+identities sanctioned by a third party, we can use instead
+permanent endpoints (ourselves, the people we know and trust,
+mathematics) combined with anytime-revocable-identities,
+one-time-identities, and other forms of unique or idempotent
+instrument&ndash;a cryptographic principle, and reputation systems, when
+needed.
+</p>
+<p>
+The purpose here is not to cover all use-cases, nor to deny the
+need for edge cases, such as the need for accountability in a
+financial transaction, age verification to comply with some legal
+constraint, or a national security clearance.  The goal is to
+provide individuals with a hassle-free security standard that will
+reinforce their privacy the larger the adoption, with few or no
+side-effects.
+</p>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-4" class="outline-2">
+<h2 id="sec-4">IDENTical diversITY</h2>
+<div class="outline-text-2" id="text-4">
+
+
+<p>
+The proposed standard is based on existing well-known cryptographic
+principles, designs, and protocols. It leverages the public key
+infrastructure, RSA encryption, Transport Layer Security, OpenPGP,
+Bitcoin, Git, etc.
+</p>
+<p>
+Each person bears one or more cryptographic key pairs, each attached
+to a unique, distinct, and unrelated identity.  Any given key can be
+derived, so that the main identity can be infered from it, but
+easily revoked by the owner. Does it sound like OpenPGP? Yes.
+</p>
+<p>
+Combine it with TLS, and you have&hellip; Monkeysphere! Forget about
+Certificate Authorities, and you obtain&hellip; WebID! Now, loop back to
+step one: how do you ensure trust, reputation, and secure
+distribution of keys? That's the hard problem.
+</p>
+<p>
+I'd say: let's propagate WebID, build the tools to generalize
+MonkeySphere, and from there we can figure out how to merge in what
+has been learned from Bitcoin, Git, and others.
+</p>
+<p>
+What about OAuth? Use an One Time Password derived from a WebID, and
+you're set. Transaction done? Key revoked. Need multiple
+transactions? Generate a different key for each consumer, and for
+each action that the consumer is authorized to make. Only one key is
+needed, with infinite tokens available, all revocable at once.
+</p>
+<p>
+What about offline? Stick to RSA.
+</p>
+<p>
+Isn't it what everybody has been trying to do? Yes, it certainly is,
+and there's been progress on all fronts! I remember the time, before
+MonkeySphere, when the buzz what that it's impossible to share a key
+between SSH and SSL. Times change. They change faster with a shared
+vision.
+</p></div>
+</div>
+<div id="postamble">
+<p class="author"> Author: hellekin
+<a href="mailto:hellekin@salam.cepheide.org">&lt;hellekin@salam.cepheide.org&gt;</a>
+</p>
+<p class="date"> Date: Sun May 19 18:56:32 2013</p>
+<p class="creator">HTML generated by org-mode 6.33x in emacs 23</p>
+</div>
+</div>
+</body>
+</html>
