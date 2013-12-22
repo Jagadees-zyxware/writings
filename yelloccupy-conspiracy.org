@@ -97,18 +97,19 @@ I'm surprised that Gibson took the time to write: "Horn’s series
 illustrates how Stratfor divides activists in social movements into
 several different camps and how those activists could be divided and
 conquered as part of the work it was paid to do on behalf of its
-corporate clients." and fails to realized how his piece works in the
+corporate clients." and failed to realize how his piece works in the
 same way, by using Stratfor as a pretext to attack Popovic instead of
 warning activists about such links. In the world of free software we
 have a major U.S.-funded program initiated by Radio Free Asia, whose
 objective is to promote democracy and combat censorship in Asia. Guess
-what kind of scope that is compared to CIA... So we have that fund Open
-Technology, with many prominent hackers, including anarchists, working
-there, and funding free software projects against censorship... Guess
-what, most of the stuff journalists do use and will use in the coming
-years are financed by this money. Should we denounce it and refuse to
-use Tor, Mailvelope, Cryptocat, Pond, or Riseup's LEAP because we know
-the activists are being funded by stooges money?
+what kind of scope that is compared to CIA... So we have that fund
+Open Technology, with many prominent hackers, including anarchists,
+working there, and funding free software projects against
+censorship... Guess what, most of the stuff journalists do use and
+will use in the coming years are financed by this money. Should we
+denounce it and refuse to use Tor, Mailvelope, Cryptocat, Pond, or
+Riseup's LEAP because we know the activists are being funded by
+stooges money?
 
 Sun Tzu told us the truth "Thus one who is skillful at keeping the enemy
 on the move maintains deceitful appearances, according to which the
