@@ -128,9 +128,8 @@ working for The Sun, and not claim to be honest and revolutionary.
 Gibson should watch his OPSEC, for he provided the "redacted email" of
 Zoe Alif in [[https://s3.amazonaws.com/s3.documentcloud.org/documents/886110/carl-gibson-extensive-email-exchange-with-andy.pdf][revealing his sources]], which is exactly why WikiLeaks has
 been attacked before: they made some people's life hell because of
-hasty releases (see AWP's "Wikileaks Collateral Damage" presentation
-at the Noisy Square of OHM2013--or search through the Cables for
-"please protect")
+hasty releases (awaiting upcoming AWP's Wikileaks investigation--or
+search through the Cables for "please protect")
 
 * Footnotes
 
