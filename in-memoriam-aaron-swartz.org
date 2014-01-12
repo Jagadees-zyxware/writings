@@ -1,0 +1,91 @@
+#
+#+TITLE:   In Memoriam Aaron Swartz
+#+AUTHOR:  hellekin
+#+DATE:    Sat, 11 Jan 2014 13:09:58 -0300
+#+OPTIONS:       H:8 num:nil toc:nil f:t tags:nil @:t
+#+LANGUAGE:      en
+#+STYLE:         <link rel="stylesheet" type="text/css" href="style.css" />
+
+One year ago, on January 11th, 2013, a young hacker dedicated to the
+advancement of freedom, knowledge, and convinced of the power of
+individuals and collectives to bring forth humane values for a more
+egalitarian world, decided that he could not win the legitimate
+struggle he had been fighting for since he was a child, and chose to
+remove himself from our world, to comply with the corrupt order that
+suppresses life where it flourishes, and punishes the just for wishing
+to abide by the Constitution and general interest rather than the rule
+of the powerful criminal few and their particular interests.
+
+His shock at being excruciated for liberating knowledge that should be
+public given the sources of its funding, and the purpose of its
+creation, and to be persecuted for doing what is right according to
+the spirit of his own country, and the narrative of the so-called free
+world, cornered him into a dead end. It came as a hard deadline for
+many of us, especially those close to him, for they knew the human
+becoming that he was, where most of us could only recognize his genius
+through his inspiring words and actions.
+
+With his life, Aaron Swartz took for shroud the veil of the illusion
+of the free world's narrative. Along with other suppressed freedom
+fighters, Julian Assange, Barret Brown, Chelsea Manning, Edward
+Snowden, etc., he contributed to demonstrate that however hard we want
+to think about freedom, democracy, humanity, we're not there anymore:
+that path and dream were stolen from us and we're like insects
+following a light in the dark, taking it for the Sun, only to discover
+when it's too late, that we've been lured into a death trap.
+
+Repeating "I knew, I knew" won't do it this time. It's time to recover
+from the shock, and plant a new path, a new dreamscape, and that must
+be one of caring and sharing, one of humane and human spirit and
+community, and a path that can only be taken one by one, by each of
+us, to become the drops that will grow into a rain and wash away the
+nightmare that paranoid punishers want to impose on us. Whatever their
+narrative, we all know their ethics do not match their words, however
+beautiful and inspiring they can be: their time is done, as much as
+the time of kings and awe-inspired rulers was half-a-millenium
+ago. Our narrative must be complex, multiple, planetary, far-seeing,
+and will impose itself by the numbers, and not by force.
+
+Hackers can only act so far as to constrain the technology to embed
+this ethics and this dreamscape into code, and choose to orient the
+politics of the technique towards personal empowerment, and collective
+freedom. There's no technological solution to mental slavery, but
+indeed there's a tension built-in the tools we make, that can help
+anyone to make choices for themselves and the rest of us.
+
+If the Nasty Stooges of America founded its cosmogony on George
+Orwell's 1984, we must stick to our fundamentals, and see how the
+military machine of the Listeners has in the 20th Century been
+subverted, appropriated, and expanded by the likes of Alan Turing,
+Alan Kay, Douglas Engelbart, John C. Licklider, and many more to build
+the Internet, this revolutionary expansion of the individual mind,
+into a reflection of a collective mind, and an enabler of collective
+intelligence that is revealing the complexity of our social agency.
+
+We must use it as a tool not to build more technology, that most of it
+would be qualified by Ted Nelson as "packaging", but to bring
+ourselves together into solving the most pressing and global
+challenges that humanity has been facing in its recorded history:
+world hunger, unleashing of fanaticisms, proliferation of nuclear
+weapons, degradation of the biosphere[0], etc. for humanity to succeed
+despite the obvious will or suicidal panic of a few. This is an
+omni-directional endeavor of unprecedented proportions and not one
+single individual can understand all the keys to make it
+happen--neither will any single non-human institution such as a
+nation-state nor a corporation. But together, given the right
+narrative, the will to succeed, the tools to facilitate our will, and
+the tools to make it difficult and fastidious to oppose us, we shall
+prevail[1].
+
+Nobody should be able to cut the wings of another Aaron Swartz, and
+the Aaron Swartz that still lives in each of us should be another
+shield against arbitrary, uninformed, fanatic, cruel, and idiotic
+decisions that wish to punish instead of educating. When society turns
+against its own subjects, we can diagnose metastasis. It's time for a
+cure.
+
+==
+hk
+
+[0] In the words of Edgard Morin
+[1] In the purity of essence of our bodily fluids.
