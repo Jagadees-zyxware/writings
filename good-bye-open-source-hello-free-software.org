@@ -1,6 +1,6 @@
 #
 #+TITLE:         Good bye "open source"; hello "free software"
-#+AUTHOR:        hellekin <hellekin@cepheide.org>
+#+AUTHOR:        hellekin <hellekin@gnu.org>
 #+DATE:          2013-01-01
 #+STARTUP:       fnadjust
 #+OPTIONS:       H:8 num:nil toc:nil f:t tags:nil @:t
