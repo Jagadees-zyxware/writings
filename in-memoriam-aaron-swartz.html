@@ -1,51 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"
-lang="en" xml:lang="en">
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>In Memoriam Aaron Swartz</title>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-<meta name="generator" content="Org-mode"/>
-<meta name="generated" content="Sat, 11 Jan 2014 13:09:58 -0300"/>
-<meta name="author" content="hellekin"/>
-<meta name="description" content=""/>
-<meta name="keywords" content=""/>
+<!-- 2014-12-31 Wed 19:10 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="hellekin" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
-  html { font-family: Times, serif; font-size: 12pt; }
   .title  { text-align: center; }
-  .todo   { color: red; }
+  .todo   { font-family: monospace; color: red; }
   .done   { color: green; }
-  .tag    { background-color: #add8e6; font-weight:normal }
-  .target { }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
   .timestamp { color: #bebebe; }
   .timestamp-kwd { color: #5f9ea0; }
-  p.verse { margin-left: 3% }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
   pre {
-	border: 1pt solid #AEBDCC;
-	background-color: #F3F5F7;
-	padding: 5pt;
-	font-family: courier, monospace;
-        font-size: 90%;
-        overflow:auto;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
   }
-  table { border-collapse: collapse; }
-  td, th { vertical-align: top; }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
   dt { font-weight: bold; }
-  div.figure { padding: 0.5em; }
-  div.figure p { text-align: center; }
-  .linenr { font-size:smaller }
-  .code-highlighted {background-color:#ffff00;}
-  .org-info-js_info-navigation { border-style:none; }
-  #org-info-js_console-label { font-size:10px; font-weight:bold;
-                               white-space:nowrap; }
-  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
-                                 font-weight:bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
   /*]]>*/-->
 </style>
-<link rel="stylesheet" type="text/css" href="style.css" />
 <script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
 <!--/*--><![CDATA[/*><!--*/
  function CodeHighlightOn(elem, id)
  {
@@ -70,10 +137,9 @@ lang="en" xml:lang="en">
 </head>
 <body>
 <div id="content">
-
 <h1 class="title">In Memoriam Aaron Swartz</h1>
-
-<p>One year ago, on January 11th, 2013, a young hacker dedicated to the
+<p>
+One year ago, on January 11th, 2013, a young hacker dedicated to the
 advancement of freedom, knowledge, and convinced of the power of
 individuals and collectives to bring forth humane values for a more
 egalitarian world, decided that he could not win the legitimate
@@ -83,6 +149,7 @@ suppresses life where it flourishes, and punishes the just for wishing
 to abide by the Constitution and general interest rather than the rule
 of the powerful criminal few and their particular interests.
 </p>
+
 <p>
 His shock at being excruciated for liberating knowledge that should be
 public given the sources of its funding, and the purpose of its
@@ -93,6 +160,7 @@ many of us, especially those close to him, for they knew the human
 becoming that he was, where most of us could only recognize his genius
 through his inspiring words and actions.
 </p>
+
 <p>
 With his life, Aaron Swartz took for shroud the veil of the illusion
 of the free world's narrative. Along with other suppressed freedom
@@ -103,6 +171,7 @@ that path and dream were stolen from us and we're like insects
 following a light in the dark, taking it for the Sun, only to discover
 when it's too late, that we've been lured into a death trap.
 </p>
+
 <p>
 Repeating "I knew, I knew" won't do it this time. It's time to recover
 from the shock, and plant a new path, a new dreamscape, and that must
@@ -116,6 +185,7 @@ the time of kings and awe-inspired rulers was half-a-millenium
 ago. Our narrative must be complex, multiple, planetary, far-seeing,
 and will impose itself by the numbers, and not by force.
 </p>
+
 <p>
 Hackers can only act so far as to constrain the technology to embed
 this ethics and this dreamscape into code, and choose to orient the
@@ -124,6 +194,7 @@ freedom. There's no technological solution to mental slavery, but
 indeed there's a tension built-in the tools we make, that can help
 anyone to make choices for themselves and the rest of us.
 </p>
+
 <p>
 If the Nasty Stooges of America founded their cosmogony on George
 Orwell's 1984, we must stick to our fundamentals, and see how the
@@ -134,24 +205,27 @@ the Internet, this revolutionary expansion of the individual mind,
 into a reflection of a collective mind, and an enabler of collective
 intelligence that is revealing the complexity of our social agency.
 </p>
+
 <p>
 We must use it as a tool not to build more technology, that most of it
 would be qualified by Ted Nelson as "packaging", but to bring
 ourselves together into solving the most pressing and global
 challenges that humanity has been facing in its recorded history:
 world hunger, unleashing of fanaticisms, proliferation of nuclear
-weapons, degradation of the biosphere<sup><a class="footref" name="fnr.1" href="#fn.1">1</a></sup>, etc. for humanity to succeed
+weapons, degradation of the biosphere<sup><a id="fnr.1" name="fnr.1" class="footref" href="#fn.1">1</a></sup>, etc. for humanity to succeed
 despite the obvious will or suicidal panic of a few.
 </p>
+
 <p>
 This is an omni-directional endeavor of unprecedented proportions and
 not one single individual can understand all the keys to make it
-happen&ndash;neither will any single non-human institution such as a
+happen&#x2013;neither will any single non-human institution such as a
 nation-state nor a corporation. But together, given the right
 narrative, the will to succeed, the tools to facilitate our will, and
 the tools to make it difficult and fastidious to oppose us, we shall
-prevail<sup><a class="footref" name="fnr.2" href="#fn.2">2</a></sup>.
+prevail<sup><a id="fnr.2" name="fnr.2" class="footref" href="#fn.2">2</a></sup>.
 </p>
+
 <p>
 Nobody should be able to cut the wings of another Aaron Swartz, and
 the Aaron Swartz that still lives in each of us should be another
@@ -160,26 +234,27 @@ decisions that wish to punish instead of educating. When society turns
 against its own subjects, we can diagnose metastasis. It's time for a
 cure.
 </p>
-
-
-
-
 <div id="footnotes">
 <h2 class="footnotes">Footnotes: </h2>
 <div id="text-footnotes">
-<p class="footnote"><sup><a class="footnum" name="fn.1" href="#fnr.1">1</a></sup> In the words of Edgard Morin
-</p>
-<p class="footnote"><sup><a class="footnum" name="fn.2" href="#fnr.2">2</a></sup> In the purity of essence of all our precious bodily fluids.
-</p>
+
+<div class="footdef"><sup><a id="fn.1" name="fn.1" class="footnum" href="#fnr.1">1</a></sup> <p class="footpara">
+In the words of Edgard Morin
+</p></div>
+
+<div class="footdef"><sup><a id="fn.2" name="fn.2" class="footnum" href="#fnr.2">2</a></sup> <p class="footpara">
+In the purity of essence of all our precious bodily fluids.
+</p></div>
+
+
 </div>
-</div>
-<div id="postamble">
-<p class="author"> Author: hellekin
-<a href="mailto:hellekin@cepheide.org">&lt;hellekin@cepheide.org&gt;</a>
-</p>
-<p class="date"> Date: Sat, 11 Jan 2014 13:09:58 -0300</p>
-<p class="creator">HTML generated by org-mode 6.33x in emacs 23</p>
-</div>
+</div></div>
+<div id="postamble" class="status">
+<p class="date">Date: Sat, 11 Jan 2014 13:09:58 -0300</p>
+<p class="author">Author: hellekin</p>
+<p class="date">Created: 2014-12-31 Wed 19:10</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.4.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
 </html>

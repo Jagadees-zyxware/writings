@@ -1,66 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>Yell-Occupy Conspiracy</title>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-<meta name="title" content="Yell-Occupy Conspiracy"/>
-<meta name="generator" content="Org-mode"/>
-<meta name="generated" content="Sub Dec 15 19 12:28:09 2013"/>
-<meta name="author" content="hellekin"/>
-<meta name="description" content=""/>
-<meta name="keywords" content=""/>
+<!-- 2014-12-31 Wed 19:10 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="hellekin" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
-  html { font-family: Times, serif; font-size: 12pt; }
   .title  { text-align: center; }
-  .todo   { color: red; }
+  .todo   { font-family: monospace; color: red; }
   .done   { color: green; }
-  .tag    { background-color: #add8e6; font-weight:normal }
-  .target { }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
   .timestamp { color: #bebebe; }
   .timestamp-kwd { color: #5f9ea0; }
-  .right  {margin-left:auto; margin-right:0px;  text-align:right;}
-  .left   {margin-left:0px;  margin-right:auto; text-align:left;}
-  .center {margin-left:auto; margin-right:auto; text-align:center;}
-  p.verse { margin-left: 3% }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
   pre {
-	border: 1pt solid #AEBDCC;
-	background-color: #F3F5F7;
-	padding: 5pt;
-	font-family: courier, monospace;
-        font-size: 90%;
-        overflow:auto;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
   }
-  table { border-collapse: collapse; }
-  td, th { vertical-align: top;  }
-  th.right  { text-align:center;  }
-  th.left   { text-align:center;   }
-  th.center { text-align:center; }
-  td.right  { text-align:right;  }
-  td.left   { text-align:left;   }
-  td.center { text-align:center; }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
   dt { font-weight: bold; }
-  div.figure { padding: 0.5em; }
-  div.figure p { text-align: center; }
-  div.inlinetask {
-    padding:10px;
-    border:2px solid gray;
-    margin:10px;
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
     background: #ffffcc;
   }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
   textarea { overflow-x: auto; }
-  .linenr { font-size:smaller }
-  .code-highlighted {background-color:#ffff00;}
-  .org-info-js_info-navigation { border-style:none; }
-  #org-info-js_console-label { font-size:10px; font-weight:bold;
-                               white-space:nowrap; }
-  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
-                                 font-weight:bold; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
   /*]]>*/-->
 </style>
-<link rel="stylesheet" type="text/css" href="style.css" />
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -107,33 +134,25 @@ for the JavaScript code in this tag.
  }
 /*]]>*///-->
 </script>
-
 </head>
 <body>
-
-<div id="preamble">
-
-</div>
-
 <div id="content">
 <h1 class="title">Yell-Occupy Conspiracy</h1>
-
-<p>"It is a principle that shines impartially on the just and unjust that
-once you have a point of view all history will back you up." &ndash; Van
+<p>
+"It is a principle that shines impartially on the just and unjust that
+once you have a point of view all history will back you up." &#x2013; Van
 Wyck Brooks, America's Coming of Age (New York 1915), p.20
 </p>
 
-<div id="outline-container-1" class="outline-2">
+<div id="outline-container-sec-1" class="outline-2">
 <h2 id="sec-1">Introduction</h2>
 <div class="outline-text-2" id="text-1">
-
-
 <p>
 A few days ago a friend sent me the link to an article by Carl Gibson
-and Steve Horn <sup><a class="footref" name="fnr-.1" href="#fn-.1">1</a></sup> "exposing" a renowned Serbian activist as a
+and Steve Horn <sup><a id="fnr.1" name="fnr.1" class="footref" href="#fn.1">1</a></sup> "exposing" a renowned Serbian activist as a
 Stratfor operative. The article was compelling, and as I like to
 verify information, I asked Andy Bichlbaum what he thought about
-it. Andy was shocked and produced an emotional response <sup><a class="footref" name="fnr-.2" href="#fn-.2">2</a></sup> the same
+it. Andy was shocked and produced an emotional response <sup><a id="fnr.2" name="fnr.2" class="footref" href="#fn.2">2</a></sup> the same
 day to denounce "yellow journalism". Confident with his conclusions,
 Carl Gibson made a public response the same day, that sparked a few
 heinous comments. Recently I took the time of reading it and sent the
@@ -142,21 +161,19 @@ propsed I should publish it, so here it is, and it was not
 edited. Please keep that in mind when responding to my email.
 </p>
 </div>
-
 </div>
 
-<div id="outline-container-2" class="outline-2">
+<div id="outline-container-sec-2" class="outline-2">
 <h2 id="sec-2">Conspiring Deeply and Attentively</h2>
 <div class="outline-text-2" id="text-2">
-
-
 <p>
-First, the detailed response of the authors <sup><a class="footref" name="fnr-.3" href="#fn-.3">3</a></sup>: thanks to your
-intervention, they felt compelled to provide more information <sup><a class="footref" name="fnr-.4" href="#fn-.4">4</a></sup>, and
+First, the detailed response of the authors <sup><a id="fnr.3" name="fnr.3" class="footref" href="#fn.3">3</a></sup>: thanks to your
+intervention, they felt compelled to provide more information <sup><a id="fnr.4" name="fnr.4" class="footref" href="#fn.4">4</a></sup>, and
 that's worth the trouble.  The response looks perfectly sound at first
-sight&ndash;and without paying attention to the opening question nor any
-links&ndash; until that paragraph near the end:
+sight&#x2013;and without paying attention to the opening question nor any
+links&#x2013; until that paragraph near the end:
 </p>
+
 <pre class="example">
 "Ironically, Andy Bichlbaum is taking the same position on Srdja Popovic 
 as the same people at Stratfor whom he called idiots. But unlike
@@ -164,15 +181,15 @@ Bichlbaum, one of the ex-Stratfor sources acknowledged that our
 reporting was sound after reading the investigation."
 </pre>
 
-
 <p>
 So, are they trusting an ex-Stratfor source about shooting red bullets
 at another ex-Stratfor source, and taking an oppositional stance as
 well, including giving more credit to Stratfor emails than Popovic's
-account&ndash;JUST TO MAKE THEIR POINT? This illustrates my concern about
+account&#x2013;JUST TO MAKE THEIR POINT? This illustrates my concern about
 this and that other article, i.e., with the position the authors chose
 to take: it's very much binary, simplistic, and reductionist.
 </p>
+
 <p>
 The opening question: "What’s worse? An activist collaborating with an
 intelligence organization labeling Bradley (now Chelsea) Manning a
@@ -184,18 +201,21 @@ upon this retroactive feature, defending the activist becomes a woe.
 Let me try it: I would hope for any good journalist to be able to
 provide a saner rhetoric.
 </p>
+
 <p>
 I think the situation is a bit more complex than they, or you, depicted
 it, and if you would follow up, you should definitely leave the
 emotional part out, that you were played on in this response, and focus
-on the complexity of the situation&ndash;just so that his accusatory
+on the complexity of the situation&#x2013;just so that his accusatory
 position falls by itself.
 </p>
+
 <p>
-In his book "The Democracy Project" <sup><a class="footref" name="fnr-.5" href="#fn-.5">5</a></sup>, David Graeber mentions Otpor!,
+In his book "The Democracy Project" <sup><a id="fnr.5" name="fnr.5" class="footref" href="#fn.5">5</a></sup>, David Graeber mentions Otpor!,
 with the following nuanced comment (pp 68-69), which appears to me as
 capturing that complexity:
 </p>
+
 <pre class="example">
 "It’s impossible for activists to really know what the other side is
 thinking. We can’t even really know exactly who the other side is: who’s
@@ -210,14 +230,13 @@ apparatus began not only studying the phenomenon, but trying to see if
 they could foster such movements themselves."
 </pre>
 
-
 <p>
 If I would produce a mimetic response to Gibson, it would be one of
-Conspiracy Theory&ndash;or Bushism: either you're with us, or you're against
+Conspiracy Theory&#x2013;or Bushism: either you're with us, or you're against
 us.  But really, I thought we were way past that. First, I think that's
 very interesting and important to understand the connections between
 activism and secret service. It's fundamental as it provides a reading
-grid to understand world events beyond the mass-media filter&ndash;which
+grid to understand world events beyond the mass-media filter&#x2013;which
 happens to be also mediated by CIA-compliant interests. But focusing on
 one person is completely demagogic and sensational: it does not make
 things better, it does not explain how the intelligence got involved
@@ -226,10 +245,12 @@ polarizes attention on the wrong target, and make the
 divide-and-conquer-for-the-advancement-of-a-cough-democratic-society
 people happy and safe behind their curtains.
 </p>
+
 <p>
 That's probably why you dismissed Stratfor as a "lowest-grade, laziest
 intelligence" outfit.
 </p>
+
 <p>
 I'm surprised that Gibson took the time to write: "Horn’s series
 illustrates how Stratfor divides activists in social movements into
@@ -240,15 +261,16 @@ same way, by using Stratfor as a pretext to attack Popovic instead of
 warning activists about such links. In the world of free software we
 have a major U.S.-funded program initiated by Radio Free Asia, whose
 objective is to promote democracy and combat censorship in Asia. Guess
-what kind of scope that is compared to CIA&hellip; So we have that fund
+what kind of scope that is compared to CIA&#x2026; So we have that fund
 Open Technology, with many prominent hackers, including anarchists,
 working there, and funding free software projects against
-censorship&hellip; Guess what, most of the stuff journalists do use and
+censorship&#x2026; Guess what, most of the stuff journalists do use and
 will use in the coming years are financed by this money. Should we
 denounce it and refuse to use Tor, Mailvelope, Cryptocat, Pond, or
 Riseup's LEAP because we know the activists are being funded by
 stooges money?
 </p>
+
 <p>
 Sun Tzu told us the truth "Thus one who is skillful at keeping the enemy
 on the move maintains deceitful appearances, according to which the
@@ -257,6 +279,7 @@ able to attack, we must seem unable; when using our forces, we must seem
 inactive; when we are near, we must make the enemy believe we are far
 away; when far away, we must make him believe we are near."
 </p>
+
 <p>
 What I see here is a typical case of self-deception by
 self-importance. It's researching with the response in hand, and
@@ -264,58 +287,54 @@ making the investigation look for the right pieces that fit the
 puzzle. Nothing to do with thinking, nor research. Gibson should be
 working for The Sun, and not claim to be honest and revolutionary.
 </p>
-
 </div>
 
-<div id="outline-container-2-1" class="outline-3">
+<div id="outline-container-sec-2-1" class="outline-3">
 <h3 id="sec-2-1">Post-Scriptum</h3>
 <div class="outline-text-3" id="text-2-1">
-
-
 <p>
 Gibson should watch his OPSEC, for he provided the "redacted email" of
 Zoe Alif in <a href="https://s3.amazonaws.com/s3.documentcloud.org/documents/886110/carl-gibson-extensive-email-exchange-with-andy.pdf">revealing his sources</a>, which is exactly why WikiLeaks has
 been attacked before: they made some people's life hell because of
-hasty releases (awaiting upcoming AWP's Wikileaks investigation&ndash;or
+hasty releases (awaiting upcoming AWP's Wikileaks investigation&#x2013;or
 search through the Cables for "please protect")
 </p>
+</div>
+</div>
+</div>
 <div id="footnotes">
 <h2 class="footnotes">Footnotes: </h2>
 <div id="text-footnotes">
-<p class="footnote"><sup><a class="footnum" name="fn-.1" href="#fnr-.1">1</a></sup> <a href="http://www.occupy.com/article/exposed-globally-renowned-activist-collaborated-intelligence-firm-stratfor">http://www.occupy.com/article/exposed-globally-renowned-activist-collaborated-intelligence-firm-stratfor</a>
-</p>
 
+<div class="footdef"><sup><a id="fn.1" name="fn.1" class="footnum" href="#fnr.1">1</a></sup> <p class="footpara">
+<a href="http://www.occupy.com/article/exposed-globally-renowned-activist-collaborated-intelligence-firm-stratfor">http://www.occupy.com/article/exposed-globally-renowned-activist-collaborated-intelligence-firm-stratfor</a>
+</p></div>
 
-<p class="footnote"><sup><a class="footnum" name="fn-.2" href="#fnr-.2">2</a></sup> <a href="http://yeslab.org/yellow">http://yeslab.org/yellow</a>
-</p>
+<div class="footdef"><sup><a id="fn.2" name="fn.2" class="footnum" href="#fnr.2">2</a></sup> <p class="footpara">
+<a href="http://yeslab.org/yellow">http://yeslab.org/yellow</a>
+</p></div>
 
+<div class="footdef"><sup><a id="fn.3" name="fn.3" class="footnum" href="#fnr.3">3</a></sup> <p class="footpara">
+<a href="http://www.occupy.com/article/how-defending-private-intelligence-firm-collaborators-screws-grassroots-activists">http://www.occupy.com/article/how-defending-private-intelligence-firm-collaborators-screws-grassroots-activists</a>
+</p></div>
 
-<p class="footnote"><sup><a class="footnum" name="fn-.3" href="#fnr-.3">3</a></sup> <a href="http://www.occupy.com/article/how-defending-private-intelligence-firm-collaborators-screws-grassroots-activists">http://www.occupy.com/article/how-defending-private-intelligence-firm-collaborators-screws-grassroots-activists</a>
-</p>
+<div class="footdef"><sup><a id="fn.4" name="fn.4" class="footnum" href="#fnr.4">4</a></sup> <p class="footpara">
+<a href="http://pastebin.com/sgL4vP7Z">http://pastebin.com/sgL4vP7Z</a>
+</p></div>
 
-
-<p class="footnote"><sup><a class="footnum" name="fn-.4" href="#fnr-.4">4</a></sup> <a href="http://pastebin.com/sgL4vP7Z">http://pastebin.com/sgL4vP7Z</a>
-</p>
-
-
-<p class="footnote"><sup><a class="footnum" name="fn-.5" href="#fnr-.5">5</a></sup> <a href="http://www.scribd.com/doc/152204755/The-Democracy-Project-David-Graeber">http://www.scribd.com/doc/152204755/The-Democracy-Project-David-Graeber</a>
-</p>
+<div class="footdef"><sup><a id="fn.5" name="fn.5" class="footnum" href="#fnr.5">5</a></sup> <p class="footpara">
+<a href="http://www.scribd.com/doc/152204755/The-Democracy-Project-David-Graeber">http://www.scribd.com/doc/152204755/The-Democracy-Project-David-Graeber</a>
+</p></div>
 
 
 </div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-<div id="postamble">
+</div></div>
+<div id="postamble" class="status">
 <p class="date">Date: Sub Dec 15 19 12:28:09 2013</p>
 <p class="author">Author: hellekin</p>
-<p class="creator"><a href="http://orgmode.org">Org</a> version 7.9.3f with <a href="http://www.gnu.org/software/emacs/">Emacs</a> version 24</p>
-<a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a>
-
+<p class="date">Created: 2014-12-31 Wed 19:10</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.4.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
 </html>
