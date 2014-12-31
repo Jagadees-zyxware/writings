@@ -8,8 +8,8 @@
 
 * Read online
 
-  - [[https://hellekin.cepheide.org/writings/a-spit-in-the-ocean.html][A Spit in the Ocean]]
-  - [[https://hellekin.cepheide.org/consensus/good-bye-open-source-hello-free-software.html][Good bye Open Source; hello Free Software]]
-  - [[https://hellekin.cepheide.org/writings/offline-slaughter-and-rats-online.html][Offline Slaughter and Rats Online]]
-  - [[https://hellekin.cepheide.org/writings/yelloccupy-conspiracy.html][Yell-Occupy Conspiracy]]
-  - [[https://hellekin.cepheide.org/writings/in-memoriam-aaron-swartz.html][In Memoriam Aaron Swartz]]
+  - [[https://tilde.center/~how/writings/a-spit-in-the-ocean.html][A Spit in the Ocean]]
+  - [[https://tilde.center/~how/good-bye-open-source-hello-free-software.html][Good bye Open Source; hello Free Software]]
+  - [[https://tilde.center/~how/writings/offline-slaughter-and-rats-online.html][Offline Slaughter and Rats Online]]
+  - [[https://tilde.center/~how/writings/yelloccupy-conspiracy.html][Yell-Occupy Conspiracy]]
+  - [[https://tilde.center/~how/writings/in-memoriam-aaron-swartz.html][In Memoriam Aaron Swartz]]
